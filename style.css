@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 80%;
+    margin-left: 50px;
+    height: 10vh;
+    position: fixed;
+    top: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font: 40px/32.5px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: #fff;
+    font-weight: 250;
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-shadow: 0 0 7px #000;
+}
+
+
+h3 {
+    font: 18px D-DIN,Arial,Verdana,sans-serif;
+    color: #fff;
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+    text-shadow: 0 0 7px #000;
+}
+
+.spaceX-logo {
+    height: 32px;
+    margin: 0px 10px;
+}
+
+.navbar-title {
+    font: 14px D-DIN-Regular,Arial,Verdana,sans-serif;
+    color: WHITE;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+    top: 10px;
+    text-shadow: 0 0 7px #000;
+}
+
+.menu {
+    color: WHITE;
+    width: 100px;
+    height: 10px;
+    position: relative;
+    justify-content: end;
+}
+
+.hamburger {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right: -150px;
+}
+
+.background-description {
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    bottom: 22%;
+}
+
+.background-image {
+    background-image: URL("https://icdn2.digitaltrends.com/image/digitaltrends/spacex-jan-24-2021.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.replay {
+    font: 16px D-DIN,Arial,Verdana,sans-serif;
+    border: 3px solid WHITE;
+    color: WHITE;
+    background-color: transparent;
+    margin-left: 100px;
+    margin-top: 25px;
+    height: 50px;
+    width: 150px;
+}
+
